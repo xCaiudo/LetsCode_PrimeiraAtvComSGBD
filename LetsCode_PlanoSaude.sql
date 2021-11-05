@@ -39,6 +39,5 @@ foreign key (id_item_contrato) references tb_item_contrato(id),
 foreign key (id_segurado) references tb_cliente(id)
 )
 
-select * from tb_cliente 
 
 
